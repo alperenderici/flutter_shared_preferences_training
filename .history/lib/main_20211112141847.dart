@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       title: 'Shared Preferences Demo',
       home: Scaffold(
         appBar: AppBar(
-          title: const Center(child: Text('Shared Preferences Demo')),
+          title: const Center(child: Text('Material App Bar')),
         ),
         body: HomePage(),
       ),

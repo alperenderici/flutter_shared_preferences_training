@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_shared_preferences_training/homePage.dart';
 
-void main() => runApp(const MyApp());
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       title: 'Shared Preferences Demo',
       home: Scaffold(
         appBar: AppBar(
-          title: const Center(child: Text('Shared Preferences Demo')),
+          title: const Center(child: Text('Material App Bar')),
         ),
         body: HomePage(),
       ),
