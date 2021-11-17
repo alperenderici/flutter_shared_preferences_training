@@ -34,7 +34,7 @@ class UserRow extends StatelessWidget {
             backgroundColor: MaterialStateProperty.all<Color>(Colors.blue),
           ),
           onPressed: null, 
-          child: Text('y.o.'),
+          child: Text('y'),
           ),
       ],
     );

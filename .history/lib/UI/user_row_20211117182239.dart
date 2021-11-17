@@ -29,13 +29,6 @@ class UserRow extends StatelessWidget {
           onPressed: null, 
           child: Text('birthday'),
           ),
-          ElevatedButton(
-          style: ButtonStyle(
-            backgroundColor: MaterialStateProperty.all<Color>(Colors.blue),
-          ),
-          onPressed: null, 
-          child: Text('y.o.'),
-          ),
       ],
     );
   }
